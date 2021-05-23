@@ -1,0 +1,21 @@
+{
+    "env": {
+        "username": "setset",
+        "password": "11111111"
+    },
+
+
+    "screenshotOnRunFailure": true,
+    "video": true,
+    "videosFolder": "cypress/videos",
+    "videoCompression": 32,
+
+
+    "reporter": "../node_modules/mochawesome/src/mochawesome.js",
+    "reporterOptions": {
+        "overwrite": false,
+        "html": false,
+        "json": true
+    }
+
+}
